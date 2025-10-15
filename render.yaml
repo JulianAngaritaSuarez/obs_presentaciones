@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: obs-presentaciones
+    env: static
+    buildCommand: ""
+    staticPublishPath: "."
